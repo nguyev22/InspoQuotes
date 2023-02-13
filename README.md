@@ -24,7 +24,7 @@ There are only 50 quotes. Any ID higher than 50 will return "null."
 ## Receive Data
 Data will be returned to user as JSON and will appear as the image below if using the web platform Postman. Any other services will slighty change the aesthetics of the quote but will still contain the core content of the quote.
 
-!(https://github.com/nguyev22/Inspiration-A-Microservice-/blob/main/quote_pic.jpg)
+![](https://github.com/nguyev22/Inspiration-A-Microservice-/blob/main/quote_pic.jpg)
 
 ## UML Sequence Diagram
-![ya](https://github.com/nguyev22/Inspiration-A-Microservice-/blob/main/UMLsequence.jpg?raw=true)
+![](https://github.com/nguyev22/Inspiration-A-Microservice-/blob/main/UMLsequence.jpg?raw=true)
