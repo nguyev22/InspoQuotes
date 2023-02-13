@@ -3,7 +3,7 @@
 Microservice using a GET request to return inspirational quotes back to user.
 
 ## Request Data
-The hosting is done locally and is requested through a GET request. To request data, simply type in the base url: >http://localhost:5000/inspire.
+The hosting is done locally and is requested through a GET request. To request data, simply type in the base url: >http://localhost:5000/inspire>.
 This will return all quotes of ispiration from the database file inspire.db through a SQL query. 
 
 For a more detailed search for a quote, user can enter the base url in addition to an ID or string. A singular quote will appear if the ID matches the quote's ID or the string text is lies within the quote.
