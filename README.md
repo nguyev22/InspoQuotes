@@ -27,3 +27,4 @@ Data will be returned to user as JSON and will appear as the image below if usin
 !(https://github.com/nguyev22/Inspiration-A-Microservice-/blob/main/quote_pic.jpg)
 
 ## UML Sequence Diagram
+!(https://github.com/nguyev22/Inspiration-A-Microservice-/blob/main/UMLsequence.jpg?raw=true)
