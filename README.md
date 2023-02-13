@@ -1,4 +1,4 @@
-# Inspiration: A-Microservice
+# Quotes of Inspiration Database
 
 Microservice using a GET request to return inspirational quotes back to user.
 
