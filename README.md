@@ -2,7 +2,7 @@
 
 Microservice using a GET request to return inspirational quotes back to user.
 
-# Request Data
+## Request Data
 The hosting is done locally and is requested through a GET request. To request data, simply type in the base url: http://localhost:5000/inspire.
 This will return all quotes of ispiration from the database file inspire.db through a SQL query. 
 
@@ -18,10 +18,10 @@ For a more detailed search for a quote, user can enter the base url in addition 
    - http://localhost:5000/inspire/ConfuCIUS
  ```
        
-*DISCLAIMER*
+### *DISCLAIMER*
 There are only 50 quotes. Any ID higher than 50 will return "null."
 
-# Receive Data
+## Receive Data
 Data will be returned to user as JSON and will appear as the image below if using the web platform Postman. Any other services will slighty change the aesthetics of the quote but will still contain the core content of the quote.
 
-#UML Sequence Diagram
+## UML Sequence Diagram
