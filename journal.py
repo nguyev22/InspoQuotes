@@ -41,31 +41,7 @@ def get_str(str_input):
         d_base.close()
         return jsonify(data)
 
-# @app.route('/inspire')
-# def getNum():
-#     d_base = sqlite3.connect('inspire.db')
-#     arg = request.args.get('quote')
-#     quote_num = request.args.get('num')
-#
-#     if arg is None:
-#         arg = 'default_query'
-#
-#     return redirect('/inspire?q={}&quote_num={}'.format(arg, quote_num))
 
-# @app.route('/inspire', methods=['POST'])
-# def post_handle():
-#     d_base = sqlite3.connect('inspire.db')
-#     if request.method == 'POST':
-
-
-# @app.route("/delete/<int:id>", methods=['DELETE'])
-# def delete_entry(id):
-#     query = "DELETE from Inspirations WHERE id = '%s';"
-#     cur = get_db.cursor()
-#     cur.execute(query, (id,))
-#     get_db.commit()
-
-    # return redirect("/inspire")
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
