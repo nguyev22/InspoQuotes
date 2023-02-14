@@ -17,6 +17,7 @@ For a more detailed search for a quote, user can enter the base url in addition 
    - http://localhost:5000/inspire/oBaMa
    - http://localhost:5000/inspire/ConfuCIUS
  ```
+ If you wanted to have a random quote generated for you, add "/random" to the end of the base url. For instance: ```http://localhost:5000/inspire/random```
        
 ### *DISCLAIMER*
 There are only 50 quotes. Any ID higher than 50 will return "null."
