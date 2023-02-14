@@ -1,7 +1,12 @@
-from flask import Flask, redirect, request, jsonify
+# CS 361 Microservice
+# Vi Nguyen
+# 2/13/23
+
+from flask import Flask, request, jsonify
 
 import os
 import sqlite3
+import random
 
 app = Flask(__name__)
 
@@ -41,6 +46,18 @@ def get_str(str_input):
         d_base.close()
         return jsonify(data)
 
+#Route that returns random quotes from database
+@app.route('/inspire/random', methods=['GET'])
+def get_random():
+    d_base = sqlite3.connect('inspire.db')
+    ran_num = random.randint(1,50)
+    if request.method == 'GET':
+        query = "SELECT * FROM Inspirations WHERE id = ?"
+        cur = d_base.cursor()
+        cur.execute(query, (ran_num,))
+        data = cur.fetchone()
+        d_base.close()
+        return jsonify(data)
 
 
 if __name__ == '__main__':
